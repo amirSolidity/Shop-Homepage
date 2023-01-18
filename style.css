@@ -1,0 +1,67 @@
+body,html{
+    width: 100;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+}
+.header-p{
+    color: black;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 8rem;
+    top: 1.2rem;
+}
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: center;
+    padding-right: 40rem;
+    padding-top: 1.5rem;
+}
+.header-p2{
+    color: #6c757d;
+    font-size: 1rem;
+}
+.header-p2:hover{
+    cursor: pointer;
+    color: #495057;
+    transition: 0.3s;
+}
+.header-btn{
+    background-color: white;
+    width: 7rem;
+    position: absolute;
+    left: 80rem;
+    bottom: 1rem;
+}
+.header-btn:hover{
+    background-color: black;
+}
+.Shopinstyle{
+    width: 100%;
+    height: 400px;
+    background-color: #212529;
+}
+.shopin-h1{
+    color: white;
+    padding-top: 12rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.shopin-p{
+    color: white;
+    padding-top: 0.5rem;
+    text-align: center;
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
