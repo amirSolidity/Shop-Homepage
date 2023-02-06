@@ -38,3 +38,22 @@ Shopbtn3.addEventListener('click' , () => {
     Shopbtn2.style.backgroundColor = ''
     ShopMenu.style.display = 'none'
 })
+
+
+const Header = document.getElementById('Header')
+const HeaderFlex = document.getElementById('HeaderFlex')
+const CartBtn = document.getElementById('CartBtn')
+
+function Menu(){
+    if(Header.style.height === '70px'){
+        Header.style.height = '250px'
+        Header.style.transition = '0.5s'
+        HeaderFlex.style.display = 'block'
+        CartBtn.style.display = 'block'
+    }else{
+        Header.style.height = '70px'
+        HeaderFlex.style.display = 'none'
+        CartBtn.style.display = 'none'
+    }
+}
+

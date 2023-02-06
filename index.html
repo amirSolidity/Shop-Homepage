@@ -9,14 +9,18 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="Header">
         <p class="header-p">Start Bootstrap</p>
+        <button  type="button" class="btn btn-dark menuBtn" id="menuBTN" onclick="Menu()">Menu</button>
         
-        <div class="header-flex">
+        <div class="header-flex" id="HeaderFlex">
             <a><p class="header-p2" id="HeaderP2">Home</p></a>
             <a><p class="header-p2" id="HeaderP3">About</p></a>
             <a><p class="header-p2" id="HeaderP4">Shop</p></a>
+            <button type="button" class="btn btn-outline-dark header-btn1" id="CartBtn"><b>Cart</b></button>
          </div>
+         <!-- <button type="button" class="btn btn-outline-dark header-btn1"><b>Cart</b></button> -->
+         
          
          <div class="ShopMenu" id="shopMenu">
             <div class="MenuDiv1"><button class="Shopbtn" id="Shopbtn1"><b>All Products</b></button></div>
@@ -38,7 +42,7 @@
     <div class="ProductsDiv">
         <h1 class="Productsh1"><b>Products</b></h1>
 
-        <div class="ProductColumn">
+        
             <!-- productrow-1 -->
             <div class="ProductRow1">
                 <div class="ProDiv1">
@@ -47,29 +51,33 @@
                         <img src="iphone14pro-digitalmat-gallery-5-202209.png" class="pro14">
                     </div>
                     <div class="captionDiv">
-                        <b class="IphoneB">Iphone 14pro</b>
-                        <p class="IphoneP">$999 - $1099</p>
-                        <p class="IphoneP2">24 months warranty</p>
+                        
+                            <b class="IphoneB">Iphone 14pro</b>
+                            <p class="IphoneP">$999 - $1099</p>
+                            <p class="IphoneP2">24 months warranty</p>
+                        
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">Veiw Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
                 </div>
-
+                
                 <!-- prodiv-2 -->
                 <div class="ProDiv1">
                     <div class="imgDiv">
                         <img src="iphone14-digitalmat-gallery-3-202209.png" class="pro14">
                     </div>
                     <div class="captionDiv">
-                        <b class="IphoneB">Iphone 14</b>
-                        <p class="IphoneP">$899 - $999</p>
-                        <p class="IphoneP2">24 months warranty</p>
+                        
+                            <b class="IphoneB">Iphone 14</b>
+                            <p class="IphoneP">$999 - $1099</p>
+                            <p class="IphoneP2">24 months warranty</p>
+                        
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
@@ -85,8 +93,8 @@
                         <p class="IphoneP">$799 - $899</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
@@ -102,17 +110,17 @@
                         <p class="IphoneP">$1399 - $1499</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
                 </div>
 
-            </div>
+            
 
-            <!-- productrow-2 -->
-            <div class="ProductRow1">
+             <!-- productrow-2 -->
+        
                 <div class="ProDiv1">
                     <!-- prodiv-1 -->
                     <div class="imgDiv">
@@ -123,8 +131,8 @@
                         <p class="IphoneP">$1899 - $1999</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
@@ -140,8 +148,8 @@
                         <p class="IphoneP">$799 - $899</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
@@ -157,8 +165,8 @@
                         <p class="IphoneP">$399 - $499</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
@@ -174,8 +182,8 @@
                         <p class="IphoneP">$249 - $349</p>
                         <p class="IphoneP2">24 months warranty</p>
                         <div class="IphonebtnDiv">
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B1">View Options</p></button>
-                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p>Add to Cart</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn2"><p class="B1">View Options</p></button>
+                            <button type="button" class="btn btn-outline-dark IphoneBtn"><p class="B2">Add to Cart</p></button>
                         </div>
                     </div>
 
