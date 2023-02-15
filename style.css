@@ -269,4 +269,11 @@ body,html{
         display: none;
     }
 }
-    
+
+.github{
+    background-color: red;
+}
+.githubP{
+    color: black;
+    font-size: 2rem;
+}
